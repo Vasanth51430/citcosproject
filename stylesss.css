@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(12.jpg.jpg);
+    background-position: 0 0 center;
+    background-size: cover;
+    font-family: 'Bitter', serif;
+    background-repeat: no-repeat;
+}
+.label{
+    color: #fff;
+}
+.forgotpassword{
+ width: 320px;
+ /* height: 420px; */
+ background: rgba(0 0 0 );
+ color:white;
+ top:50%;
+ left:50%;
+ position:absolute;
+ transform:translate(-50%,-50%);
+ box-sizing: border-box;
+ padding: 70px 30px;
+border-radius: 12px;
+opacity: 0.73;
+}
+.logo{
+   width:150px; 
+   height:150px;
+   border-radius:50%;
+   position:absolute;
+   top: 30px;
+   left:calc(50% - 75px);
+
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+ 
+.forgotpassword p{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    color:#fff;
+    
+}
+
+
+.forgotpassword input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #000;
+
+}
+
+.forgotpassword input[type="text"] , input[type="password"]
+{
+    border: none;
+    border-bottom: 1.5px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.forgotpassword input[type="button"]
+{
+   border: none;
+   outline: none;
+   height: 40px;
+   background:#0384fd;
+   color: white;
+   font-size: 18px;  
+   border-radius: 25px;  
+}
+
+.forgotpassword input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #0263ff;
+    color: white;
+    transition:0.8s;
+}
+.forgotpassword a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color:white ;
+}
+.loginbox a:hover
+{
+    color: #1971fd;
+    transition: 0.8s;
+}
